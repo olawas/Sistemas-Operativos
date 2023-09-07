@@ -15,6 +15,6 @@ int main() {
   int perimetro = lado1 + lado2 + lado3;
   int s = (lado1 + lado2 + lado3)/2;
   int area = sqrt(s*(s-lado1)*(s-lado2)*(s-lado3));
-  print("El perimetro del triangulo es: %d \n El semiperimetro del triangulo es: %d \n El area del triangulo es: %d", perimetro, s, area);
+  printf("El perimetro del triangulo es: %d \n El semiperimetro del triangulo es: %d \n El area del triangulo es: %d", perimetro, s, area);
   return 0;
 }
